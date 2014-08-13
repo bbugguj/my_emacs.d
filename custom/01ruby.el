@@ -1,4 +1,9 @@
-(setq enh-ruby-program "~/.rbenv/versions/2.1.2/bin/ruby")
+;(setq enh-ruby-program "~/.rbenv/versions/2.1.2/bin/ruby")
+
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/libs/rbenv.el/"))
+(require 'rbenv)
+(global-rbenv-mode)
+
 (autoload 'enh-ruby-mode "enh-ruby-mode" "Major mode for ruby files" t)
 (add-to-list 'auto-mode-alist '("\\.rb$" . enh-ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.rake$" . enh-ruby-mode))
