@@ -1,0 +1,13 @@
+(require 'cask "~/.cask/cask.el")
+(cask-initialize)
+(require 'pallet)
+(add-to-list 'load-path "~/.emacs.d/custom")
+
+(load "00common-setup.el")
+(load "01ruby.el")
+(load "02robe.el")
+(load "03smartparens.el")
+(load "04projectile.el")
+(load "05highlight-indentation.el")
+(load "06flyspell.el")
+(load "07theme.el")
