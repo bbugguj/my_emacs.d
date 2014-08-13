@@ -10,6 +10,7 @@
 (depends-on "cask")
 (depends-on "color-theme-sanityinc-tomorrow")
 (depends-on "dash")
+(depends-on "dirtree")
 (depends-on "drag-stuff")
 (depends-on "ecb")
 (depends-on "enclose")

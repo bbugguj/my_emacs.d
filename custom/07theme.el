@@ -18,3 +18,6 @@
 (modify-all-frames-parameters '((fullscreen . maximized)))
 
 (global-linum-mode t)
+
+; dirtree
+(require 'dirtree)
