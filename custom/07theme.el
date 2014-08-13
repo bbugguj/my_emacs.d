@@ -1,5 +1,5 @@
 ;; Color Themes
-(add-to-list 'custom-theme-load-path "~/.emacs.d/base16-emacs-theme")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/libs/base16-emacs-theme")
 (load-theme 'sanityinc-tomorrow-night t)
 
 ;(require 'color-theme)
