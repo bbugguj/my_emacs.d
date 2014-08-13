@@ -11,3 +11,4 @@
 (load "05highlight-indentation.el")
 (load "06flyspell.el")
 (load "07theme.el")
+(load "08golang.el")
