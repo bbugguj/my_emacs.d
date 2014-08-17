@@ -50,5 +50,4 @@
 (depends-on "tabbar")
 (depends-on "w3m")
 (depends-on "web-mode")
-(depends-on "web-mode")
 (depends-on "wrap-region")

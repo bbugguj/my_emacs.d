@@ -1,6 +1,8 @@
 ;; Color Themes
 (add-to-list 'custom-theme-load-path "~/.emacs.d/libs/base16-emacs-theme")
 (load-theme 'sanityinc-tomorrow-night t)
+; (load-theme 'base16-tomorrow t)
+; (load-theme 'base16-railscasts t)
 
 ;(require 'color-theme)
 ;(color-theme-initialize)
@@ -12,7 +14,7 @@
                     nil
                     :font "Dejavu Sans Mono-13"
                     :weight `normal)
-;(setq-default line-spacing 3)
+(setq-default line-spacing 2)
 
 ; Maximized frames
 (modify-all-frames-parameters '((fullscreen . maximized)))
